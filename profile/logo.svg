@@ -1,0 +1,31 @@
+<svg width="340" height="80" viewBox="0 0 340 80" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .base { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace; font-size: 36px; }
+    .dim  { fill: #8a8a8a; }
+    .bold { fill: #1a1a1a; font-weight: 700; }
+    .mark { stroke: #1a1a1a; }
+    .mark-fill { fill: #1a1a1a; }
+    @media (prefers-color-scheme: dark) {
+      .bold { fill: #ffffff; }
+      .dim  { fill: #6f6f6f; }
+      .mark { stroke: #ffffff; }
+      .mark-fill { fill: #ffffff; }
+    }
+  </style>
+
+  <g transform="translate(4, 10)">
+    <polygon points="32,2 59,17 59,47 32,62 5,47 5,17"
+             fill="none" class="mark" stroke-width="2.3"/>
+    <path d="M32 14 L32 29 M32 29 L18 38 M32 29 L46 38 M18 38 L18 50 M46 38 L46 50"
+          fill="none" class="mark" stroke-width="1.8" stroke-linecap="round"/>
+    <circle cx="32" cy="14" r="3.2" class="mark-fill"/>
+    <circle cx="32" cy="29" r="3.2" class="mark-fill"/>
+    <circle cx="18" cy="38" r="2.7" class="mark-fill"/>
+    <circle cx="46" cy="38" r="2.7" class="mark-fill"/>
+    <circle cx="18" cy="50" r="2.7" class="mark-fill"/>
+    <circle cx="46" cy="50" r="2.7" class="mark-fill"/>
+  </g>
+
+  <text x="76" y="50" class="base dim">thruqe</text>
+  <text x="218" y="50" class="base bold">labs</text>
+</svg>
